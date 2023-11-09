@@ -1,0 +1,32 @@
+class FractorsOfNumber 
+{
+public static void main(String[] args) 
+	
+{
+	int num=12;
+	int den=1;
+	int d=1;
+	
+	   while (den<num)
+	   {
+		if (num%den==0)
+		{
+			break;
+		}
+         den++;
+	    }
+		if (num==den)
+		{
+			System.out.println("its prime");
+			if (num%d==0)
+			{
+			System.out.println(d);
+			}
+			d++;
+		}
+		
+		
+	   
+
+}
+}
